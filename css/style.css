@@ -1,16 +1,17 @@
 .header {
     background-color: #FFFFFF;
 }
-.body{
-    color: #434455;
+
+body {
     font-family: "Roboto", sans-serif;
-    background-color: #ffffff ;
+    color:#434455;
     font-weight: 400;
+    background-color: #ffff;
 }
 
 .accent {
-    color: #2E2F42;}
-
+    color: #2E2F42;
+}
 
 ul, ol {
     list-style-type: none;
@@ -35,15 +36,18 @@ a{
     color: #2E2F42;
 }
 
-.navigation-link{
+.navbar .navigation-link{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: left;
     color: #2e2f42;
-}    
+} 
+.navigation-link {
+    text-decoration: none; 
+    color: #434455;
+}   
 
 .navigation-link:hover,
 .navigation-link:focus {
@@ -63,6 +67,7 @@ a{
     letter-spacing: 0.02em;
     text-align: left;
     color: #434455;
+    text-decoration: none;
 }
 
 .contact-link:hover,
