@@ -149,13 +149,13 @@ a{
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
-
 }
 
 .team-image {
     text-align: center;
+    background-color: #FFFFFF;
 }
 
 .employee-name{
@@ -190,12 +190,12 @@ a{
 .portfolio-title {
         font-family: "Roboto", sans-serif;
         font-size: 36px;
-        font-weight: 700;
-        line-height: 1.2;
+        font-weight: 500;
+        line-height: 1.11;
         letter-spacing: 0.02em;
-        text-align: left;
         color: #2E2F42;
         text-align: center;
+        text-transform: capitalize;
 }
 
 .portfolio-text {
@@ -205,6 +205,16 @@ a{
     letter-spacing: 0.02em;
     font-weight: 400;
     text-align: center;
+}
+
+.portfolio-description {
+    line-height: 1.2;
+    color: #2e2f42;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-align: center; 
 }
 
 
